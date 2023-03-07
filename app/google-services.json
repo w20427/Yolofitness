@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "701085042180",
+    "project_id": "read-db-e7132",
+    "storage_bucket": "read-db-e7132.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701085042180:android:ea9ddf0b7d9f1882b8d751",
+        "android_client_info": {
+          "package_name": "com.amitku.readdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701085042180-cdcfag6otqc4461t6pl0kmf9qb1a26m7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG85wPuPIZnnsRcwkV310YkKV7RxrjblI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701085042180-cdcfag6otqc4461t6pl0kmf9qb1a26m7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

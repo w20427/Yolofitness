@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/yelo"
+    tools:context="com.amitku.yolofitness.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+        android:text="Welcome to Sign Up to continue"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/yellow"
+        android:layout_marginTop="100dp"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            app:hintTextColor="@color/yellow"
+            android:id="@+id/etName"
+            android:hint="Enter your name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/yellow"
+        android:layout_margin="20dp"
+
+        app:startIconDrawable="@drawable/baseline_email_24"
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            app:hintTextColor="@color/yellow"
+            android:id="@+id/etMail"
+            android:hint="Enter your mail address" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/yellow"
+        android:layout_margin="1dp"
+
+        app:startIconDrawable="@drawable/baseline_lock_24"
+        app:endIconMode="password_toggle"
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            app:hintTextColor="@color/yellow"
+            android:id="@+id/etPassword"
+            android:hint="Enter your password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/yellow"
+        app:hintTextColor="@color/yellow"
+        android:layout_margin="20dp"
+
+        app:startIconDrawable="@drawable/baseline_account_box_24"
+
+        android:layout_gravity="center">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            app:hintTextColor="@color/yellow"
+            android:id="@+id/etUserName"
+            android:hint="Enter unique id" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/yellow"
+        android:layout_gravity="center"
+        android:text="Sign UP" />
+
+</LinearLayout>
